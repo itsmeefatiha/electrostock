@@ -1,4 +1,4 @@
-package com.electrostock.electrostock;
+package com.electrostock.backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
