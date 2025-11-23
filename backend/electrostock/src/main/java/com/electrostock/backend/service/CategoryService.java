@@ -1,7 +1,5 @@
 package com.electrostock.backend.service;
 
-
-
 import com.electrostock.backend.entity.Category;
 
 import java.util.List;
