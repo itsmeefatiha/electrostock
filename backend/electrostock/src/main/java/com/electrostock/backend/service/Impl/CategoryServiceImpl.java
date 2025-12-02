@@ -23,11 +23,11 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
-    public Category updateCategory(Long id, Category category){
+    public Category updateCategory(Long id, Category category) {
         Category existing = getCategoryById(id);
         existing.setName(category.getName());
         return categoryRepository.save(existing);
-
+    }
 
     @Override
     public void deleteCategory(Long id){
