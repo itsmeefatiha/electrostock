@@ -27,7 +27,7 @@ public class CategoryServiceImpl implements CategoryService {
         Category existing = getCategoryById(id);
         existing.setName(category.getName());
         return categoryRepository.save(existing);
-    }
+
 
     @Override
     public void deleteCategory(Long id){
